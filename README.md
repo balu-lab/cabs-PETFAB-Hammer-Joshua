@@ -2,7 +2,8 @@
 
 **An open, buildable robotic arm and full curriculum that takes students from turning a screwdriver to writing code that lets a robot see, find, and pick up objects on its own.**
 
-> 📷 *Add a photo of the arm here:* `![PETFAB Armadillo](Photos/armadillo.jpg)`
+> <img width="1400" height="1094" alt="armadillo" src="https://github.com/user-attachments/assets/0e318e36-ad0c-4c52-9297-0e793f83be41" />
+
 
 ---
 

@@ -90,8 +90,8 @@ The curriculum takes students from building the arm through forward kinematics, 
 | 1 | Introduction to the Robotic Arm | Included |
 | 2 | Building the Robotic Arm | Included |
 | 3 | Trigonometric Approach to FK | Included |
-| 4 | Denavit-Hartenberg Approach to FK | Planned |
-| 5 | Code Implementation of FK | Planned |
+| 4 | Denavit-Hartenberg Approach to FK | Included |
+| 5 | Code Implementation of FK | Included |
 | 6 | Trigonometric Approach to IK | Planned |
 | 7 | Gradient Descent Approach to IK | Planned |
 | 8 | Code Implementation of IK | Planned |

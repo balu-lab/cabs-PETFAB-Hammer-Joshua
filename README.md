@@ -2,8 +2,9 @@
 
 **An open, buildable robotic arm and full curriculum that takes students from turning a screwdriver to writing code that tells a robot where it is, where to go, and what it sees.**
 
-> <img width="1400" height="1094" alt="armadillo" src="https://github.com/user-attachments/assets/0e318e36-ad0c-4c52-9297-0e793f83be41" />
-
+<p align="center">
+  <img src="Photos/armadillo-cad.png" alt="The PETFAB Armadillo robotic arm in CAD" width="720">
+</p>
 
 ---
 
@@ -37,15 +38,19 @@ Most educational arms are either toys that hide the engineering or industrial ma
 
 ## Gallery
 
-| The built arm | Underactuated gripper prototype |
-|:---:|:---:|
-| ![The Armadillo holding a steel tumbler in its gripper](Photos/armadillo-holding-cup.jpg) | ![The gripper prototype wrapping around a mug](Photos/gripper-prototype-mug.jpg) |
+<p align="center">
+  <img src="Photos/armadillo-holding-cup.jpg" alt="The Armadillo holding a steel tumbler in its gripper" width="49%">
+  <img src="Photos/armadillo-reaching.jpg" alt="Moving the arm by hand to full reach" width="49%">
+</p>
+<p align="center"><em>The built arm holding a tumbler (left) and reaching out (right)</em></p>
 
-| CAD model | Exploded view |
-|:---:|:---:|
-| ![The complete arm in CAD, folded and upright](Photos/cad-full-arm.png) | ![Exploded view of the arm's main assemblies](Photos/cad-exploded-view.png) |
+<p align="center">
+  <img src="Photos/gripper-prototype-mug.jpg" alt="The gripper prototype wrapping around a mug" width="49%">
+  <img src="Photos/vision-object-detection.png" alt="YOLOv8 detecting a mouse through the RealSense camera" width="49%">
+</p>
+<p align="center"><em>The underactuated gripper prototype (left) and YOLOv8 object detection through the depth camera (right)</em></p>
 
-More pictures are in [Photos](Photos/).
+More pictures, including CAD renders and an exploded view, are in [Photos](Photos/).
 
 ---
 

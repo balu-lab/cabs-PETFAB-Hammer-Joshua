@@ -1,12 +1,12 @@
 # Curriculum
 
-A 12-lesson course that takes high school students from building the PETFAB Armadillo to making it find and move an object on its own. Lessons 1–5 are ready to teach. Lessons 6–12 are planned.
+A 10-lesson course that takes high school students from building the PETFAB Armadillo to programming how it moves and how it sees. Lessons 1–5 are ready to teach. Lessons 6–10 are planned.
 
 The course is built around three questions, introduced in Lesson 1 and revisited throughout:
 
 1. **How does the arm know where it is?** Forward kinematics (Lessons 3–5)
 2. **How does the arm know where to go?** Inverse kinematics (Lessons 6–8)
-3. **How can the arm interact with the world?** Computer vision and AI object detection (Lessons 9–11)
+3. **How can the arm interact with the world?** Computer vision and AI object detection (Lessons 9–10)
 
 The full course description, learning goals, standards alignment and materials list are in [Robotic Arm Lessons Overview.docx](Robotic%20Arm%20Lessons%20Overview.docx).
 
@@ -24,8 +24,6 @@ The full course description, learning goals, standards alignment and materials l
 | 8 | Code Implementation of IK | Code inverse kinematics, preview Jacobians | Planned |
 | 9 | Stereoscopic Camera | Depth perception through disparity, camera calibration | Planned |
 | 10 | AI Object Detection | Pretrained object detection models, bounding boxes | Planned |
-| 11 | Stereoscopic Vision & AI Object Detection | Combine detection and depth to locate objects in 3D | Planned |
-| 12 | Challenge: Move Object | Full pipeline; autonomous pick-and-place demo | Planned |
 
 Each lesson folder has a lesson plan (objectives, timed procedures and an assessment) and the slides it refers to.
 
@@ -35,4 +33,4 @@ High school Math 3 / Geometry and intermediate Python.
 
 ## Assessment
 
-Every lesson ends with a short formative assessment tied to its objectives. The coding lessons (5, 8 and 11) are assessed mainly through working code checked against known test cases. The course ends with Lesson 12's live challenge, where teams show their arm detecting and moving to a target object on its own.
+Every lesson ends with a short formative assessment tied to its objectives. The coding lessons (5 and 8) are assessed mainly through working code checked against known test cases.

@@ -1,6 +1,6 @@
 # PETFAB Armadillo – 4-DOF Educational Robotic Arm
 
-**An open, buildable robotic arm and full curriculum that takes students from turning a screwdriver to writing code that lets a robot see, find, and pick up objects on its own.**
+**An open, buildable robotic arm and full curriculum that takes students from turning a screwdriver to writing code that tells a robot where it is, where to go, and what it sees.**
 
 > <img width="1400" height="1094" alt="armadillo" src="https://github.com/user-attachments/assets/0e318e36-ad0c-4c52-9297-0e793f83be41" />
 
@@ -18,8 +18,7 @@ Most educational arms are either toys that hide the engineering or industrial ma
 1. **Build it.** Assemble the arm, wire the actuators, and run first power-on tests.
 2. **Understand where it is.** Derive and code *forward kinematics* to calculate where the gripper is from the joint angles.
 3. **Tell it where to go.** Derive and code *inverse kinematics* to work out the joint angles needed to reach a target.
-4. **Let it see.** Combine stereo depth sensing with AI object detection to locate objects in 3D.
-5. **Put it all together.** In the capstone challenge, the arm autonomously detects, reaches, and moves an object.
+4. **Let it see.** Use stereo depth sensing and AI object detection to perceive the objects around it.
 
 ### Who it's for
 
@@ -33,8 +32,20 @@ Most educational arms are either toys that hide the engineering or industrial ma
 - ⚙️ Robotis Dynamixel XM540-W270-T smart actuators with built-in encoders
 - 👁️ Intel RealSense D435i depth camera with YOLOv8 object detection
 - 🖥️ Point-and-click GUI to teach, save, and replay waypoint sequences
-- 📚 12-lesson curriculum with lesson plans, slides, worked problems, and assessments (Lessons 1–5 available now)
+- 📚 10-lesson curriculum with lesson plans, slides, worked problems, and assessments (Lessons 1–5 available now)
 - 🔓 Open assembly instructions, bill of materials, curriculum, and code, with design files on the way
+
+## Gallery
+
+| The built arm | Underactuated gripper prototype |
+|:---:|:---:|
+| ![The Armadillo holding a steel tumbler in its gripper](Photos/armadillo-holding-cup.jpg) | ![The gripper prototype wrapping around a mug](Photos/gripper-prototype-mug.jpg) |
+
+| CAD model | Exploded view |
+|:---:|:---:|
+| ![The complete arm in CAD, folded and upright](Photos/cad-full-arm.png) | ![Exploded view of the arm's main assemblies](Photos/cad-exploded-view.png) |
+
+More pictures are in [Photos](Photos/).
 
 ---
 
@@ -49,7 +60,7 @@ Most educational arms are either toys that hide the engineering or industrial ma
 | [3D Printing Files](3D%20Printing%20Files/) | Printable links, plates, and gripper parts *(coming soon)* |
 | [CAD](CAD/) | Design source files *(coming soon)* |
 | [User Manuals](User%20Manuals/) | Actuator and camera datasheets *(coming soon)* |
-| [Photos](Photos/) | Photos of the assembled arm and demos *(coming soon)* |
+| [Photos](Photos/) | Photos of the built arm and prototypes, CAD renders, and camera screenshots |
 
 ## Specs
 
@@ -111,7 +122,7 @@ Most educational arms are either toys that hide the engineering or industrial ma
 
 ## Educational Use
 
-The curriculum takes students from building the arm through forward kinematics, inverse kinematics, and stereo vision with AI object detection. It ends in a capstone challenge where the arm finds and moves to an object on its own. It is aligned with NGSS engineering design standards (HS-ETS1-1 to HS-ETS1-4). See the [Curriculum folder](Curriculum/) for the course overview.
+The curriculum takes students from building the arm through forward kinematics, inverse kinematics, and stereo vision with AI object detection. It is aligned with NGSS engineering design standards (HS-ETS1-1 to HS-ETS1-4). See the [Curriculum folder](Curriculum/) for the course overview.
 
 | # | Lesson | Status |
 |---|--------|--------|
@@ -125,8 +136,6 @@ The curriculum takes students from building the arm through forward kinematics, 
 | 8 | Code Implementation of IK | Planned |
 | 9 | Stereoscopic Camera | Planned |
 | 10 | AI Object Detection | Planned |
-| 11 | Stereoscopic Vision & AI Object Detection | Planned |
-| 12 | Challenge: Move Object | Planned |
 
 Prerequisites: high school Math 3 / Geometry and intermediate Python.
 

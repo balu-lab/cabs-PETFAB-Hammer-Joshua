@@ -36,6 +36,25 @@ Most educational arms are either toys that hide the engineering or industrial ma
 - 📚 10-lesson curriculum with lesson plans, slides, worked problems, and assessments (Lessons 1–5 available now)
 - 🔓 Open assembly instructions, bill of materials, curriculum, and code, with design files on the way
 
+## See It in Action
+
+<!-- VIDEO PLAYER: drag arm-demo.mp4 onto the blank line below, then delete everything from "preview start" to "preview end". -->
+
+<!-- preview start -->
+<p align="center">
+  <a href="Videos/arm-demo.mp4"><img src="Videos/previews/arm-demo.gif" alt="The Armadillo gripping a tumbler handed to it" width="80%"></a>
+</p>
+<!-- preview end -->
+<p align="center"><em>Joseph Ruhan demonstrates the finished arm moving on its own, gripping objects handed to it, and being guided by hand. <a href="Videos/arm-demo.mp4">Watch the full video with narration (49 s)</a>.</em></p>
+
+<p align="center">
+  <a href="Videos/range-of-motion.mp4"><img src="Videos/previews/range-of-motion.gif" alt="Moving the arm by hand through its range of motion" width="49%"></a>
+  <a href="Videos/gripper-prototype.mp4"><img src="Videos/previews/gripper-prototype.gif" alt="The gripper fingers wrapping around a mug" width="49%"></a>
+</p>
+<p align="center"><em>The range of motion (left, <a href="Videos/range-of-motion.mp4">26 s</a>) and the underactuated gripper prototype (right, <a href="Videos/gripper-prototype.mp4">15 s</a>)</em></p>
+
+More clips are in [Videos](Videos/).
+
 ## Gallery
 
 <p align="center">
@@ -66,6 +85,7 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 | [CAD](CAD/) | Design source files *(coming soon)* |
 | [User Manuals](User%20Manuals/) | Actuator and camera datasheets *(coming soon)* |
 | [Photos](Photos/) | Photos of the built arm and prototypes, CAD renders, and camera screenshots |
+| [Videos](Videos/) | Demo, range-of-motion, and prototype videos |
 
 ## Specs
 

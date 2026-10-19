@@ -6,42 +6,35 @@ Full-length videos of the PETFAB Armadillo. Each one is also in this folder as a
 
 <!-- VIDEO PLAYER: drag arm-demo.mp4 onto the blank line below, then delete everything from "preview start" to "preview end". -->
 
-<!-- preview start -->
-<p align="center">
-  <a href="arm-demo.mp4"><img src="previews/arm-demo.gif" alt="The Armadillo gripping a tumbler handed to it" width="80%"></a>
-</p>
-<!-- preview end -->
-<p align="center"><em><a href="arm-demo.mp4"><b>arm-demo.mp4</b></a> (49 s, with narration). Joseph Ruhan demonstrates the finished arm moving on its own, gripping objects handed to it, and being guided by hand.</em></p>
+
+
+https://github.com/user-attachments/assets/7bf4e68b-27bd-4faf-a8a3-bc81803d2f6c
+
 
 ## Range of motion
 
 <!-- VIDEO PLAYER: drag range-of-motion.mp4 onto the blank line below, then delete everything from "preview start" to "preview end". -->
 
-<!-- preview start -->
-<p align="center">
-  <a href="range-of-motion.mp4"><img src="previews/range-of-motion.gif" alt="Moving the arm by hand through its range of motion" width="80%"></a>
-</p>
-<!-- preview end -->
-<p align="center"><em><a href="range-of-motion.mp4"><b>range-of-motion.mp4</b></a> (26 s). The arm moved by hand through its range of motion.</em></p>
+
+
+https://github.com/user-attachments/assets/34a5c7e6-6257-4383-8806-d1fb65ef79a6
+
 
 ## Gripper prototype
 
 <!-- VIDEO PLAYER: drag gripper-prototype.mp4 onto the blank line below, then delete everything from "preview start" to "preview end". -->
 
-<!-- preview start -->
-<p align="center">
-  <a href="gripper-prototype.mp4"><img src="previews/gripper-prototype.gif" alt="The gripper fingers wrapping around a mug" width="80%"></a>
-</p>
-<!-- preview end -->
-<p align="center"><em><a href="gripper-prototype.mp4"><b>gripper-prototype.mp4</b></a> (15 s). An early version of the underactuated gripper. Pulling the cable closes both fingers around a cube and then a mug.</em></p>
+
+
+https://github.com/user-attachments/assets/6db6914c-4f08-4c4b-8c50-9afb5e042890
+
+
 
 ## Early arm prototype
 
 <!-- VIDEO PLAYER: drag early-arm-prototype.mp4 onto the blank line below, then delete everything from "preview start" to "preview end". -->
 
-<!-- preview start -->
-<p align="center">
-  <a href="early-arm-prototype.mp4"><img src="../Photos/early-arm-prototype.jpg" alt="An early version of the arm with white and black printed links" width="80%"></a>
-</p>
-<!-- preview end -->
-<p align="center"><em><a href="early-arm-prototype.mp4"><b>early-arm-prototype.mp4</b></a> (21 s). An early version of the arm, moved by hand.</em></p>
+
+
+https://github.com/user-attachments/assets/643ba2e3-5a8b-48b2-80a3-5e27d1cdb63c
+

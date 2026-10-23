@@ -156,8 +156,8 @@ The curriculum takes students from building the arm through forward kinematics, 
 | 3 | [Trigonometric Approach to FK](Curriculum/Lesson%203/) | Included |
 | 4 | [Denavit-Hartenberg Approach to FK](Curriculum/Lesson%204/) | Included |
 | 5 | [Code Implementation of FK](Curriculum/Lesson%205/) | Included |
-| 6 | Trigonometric Approach to IK | Planned |
-| 7 | Gradient Descent Approach to IK | Planned |
+| 6 | Trigonometric Approach to IK | Included |
+| 7 | Gradient Descent Approach to IK | Included |
 | 8 | Code Implementation of IK | Planned |
 | 9 | Stereoscopic Camera | Planned |
 | 10 | AI Object Detection | Planned |

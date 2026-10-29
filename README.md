@@ -33,7 +33,7 @@ Most educational arms are either toys that hide the engineering or industrial ma
 - ⚙️ Robotis Dynamixel XM540-W270-T smart actuators with built-in encoders
 - 👁️ Intel RealSense D435i depth camera with YOLOv8 object detection
 - 🖥️ Point-and-click GUI to teach, save, and replay waypoint sequences
-- 📚 10-lesson curriculum with lesson plans, slides, worked problems, and assessments (Lessons 1–5 available now)
+- 📚 10-lesson curriculum with lesson plans, slides, worked problems, and assessments (Lessons 1–7 available now)
 - 🔓 Open assembly instructions, bill of materials, curriculum, and code, with design files on the way
 
 ## See It in Action
@@ -79,7 +79,7 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 |--------|---------------|
 | [Assembly Instructions](Assembly%20Instructions/) | Step-by-step build guide for the base, shoulder, elbow, gripper, and full arm (PowerPoint + PDF) |
 | [BOM](BOM/) | Bill of materials with quantities, materials, and purchase links (Excel + PDF) |
-| [Curriculum](Curriculum/) | Course overview plus lesson plans and slides for Lessons 1–5 |
+| [Curriculum](Curriculum/) | Course overview plus lesson plans and slides for Lessons 1–7 |
 | [Code](Code/) | Waypoint teach/replay GUI, camera and object-detection test, and the Lesson 5 forward kinematics scripts |
 | [3D Printing Files](3D%20Printing%20Files/) | Printable links, plates, and gripper parts *(coming soon)* |
 | [CAD](CAD/) | Design source files *(coming soon)* |
@@ -152,8 +152,8 @@ The curriculum takes students from building the arm through forward kinematics, 
 | 3 | [Trigonometric Approach to FK](Curriculum/Lesson%203/) | Included |
 | 4 | [Denavit-Hartenberg Approach to FK](Curriculum/Lesson%204/) | Included |
 | 5 | [Code Implementation of FK](Curriculum/Lesson%205/) | Included |
-| 6 | Trigonometric Approach to IK | Included |
-| 7 | Gradient Descent Approach to IK | Included |
+| 6 | [Trigonometric Approach to IK](Curriculum/Lesson%206/) | Included |
+| 7 | [Gradient Descent Approach to IK](Curriculum/Lesson%207/) | Included |
 | 8 | Code Implementation of IK | Planned |
 | 9 | Stereoscopic Camera | Planned |
 | 10 | AI Object Detection | Planned |

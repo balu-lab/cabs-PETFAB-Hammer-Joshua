@@ -1,6 +1,6 @@
 # Curriculum
 
-A 10-lesson course that takes high school students from building the PETFAB Armadillo to programming how it moves and how it sees. Lessons 1–5 are ready to teach. Lessons 6–10 are planned.
+A 10-lesson course that takes high school students from building the PETFAB Armadillo to programming how it moves and how it sees. Lessons 1–7 are ready to teach. Lessons 8–10 are planned.
 
 The course is built around three questions, introduced in Lesson 1 and revisited throughout:
 
@@ -19,8 +19,8 @@ The full course description, learning goals, standards alignment and materials l
 | 3 | [Trigonometric Approach to FK](Lesson%203/) | Derive forward kinematics with trigonometry in 2D and 3D | Included |
 | 4 | [Denavit-Hartenberg Approach to FK](Lesson%204/) | Forward kinematics with vectors and the DH angle convention, in 2D and 3D, checked in Desmos | Included |
 | 5 | [Code Implementation of FK](Lesson%205/) | Code forward kinematics one function at a time, compare it with Lesson 3's method, map the arm's reach | Included |
-| 6 | Trigonometric Approach to IK | Derive inverse kinematics with the law of cosines and trigonometry | Included |
-| 7 | Gradient Descent Approach to IK | Iterative, numerical inverse kinematics | Included |
+| 6 | [Trigonometric Approach to IK](Lesson%206/) | Derive inverse kinematics with the law of cosines and trigonometry | Included |
+| 7 | [Gradient Descent Approach to IK](Lesson%207/) | Iterative, numerical inverse kinematics | Included |
 | 8 | Code Implementation of IK | Code inverse kinematics, preview Jacobians | Planned |
 | 9 | Stereoscopic Camera | Depth perception through disparity, camera calibration | Planned |
 | 10 | AI Object Detection | Pretrained object detection models, bounding boxes | Planned |

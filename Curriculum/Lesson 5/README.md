@@ -41,4 +41,4 @@ Check your code with the worked example: `show(flat_tip(45, -45))` prints `[426.
 
 The code uses link lengths of L1 = L2 = 250 mm, as in Lessons 3 and 4, and the DH angles from Lesson 4: θB is the base turn, θS is measured from the floor, θE is measured from the line of the upper arm, and up is +. If your arm measures differently, change the two constants at the top of `arm.py`. The answers on the slides will change too.
 
-**Previous:** [Lesson 4](../Lesson%204/)
+**Previous:** [Lesson 4](../Lesson%204/) · **Next:** [Lesson 6: Trigonometric Approach to IK](../Lesson%206/)

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Photos/armadillo-logo.png" alt="The PETFAB Armadillo logo: an armadillo with circuit lines across its shell" width="180">
+</p>
+
 # PETFAB Armadillo – 4-DOF Educational Robotic Arm
 
 **An open, buildable robotic arm and full curriculum that takes students from turning a screwdriver to writing code that tells a robot where it is, where to go, and what it sees.**

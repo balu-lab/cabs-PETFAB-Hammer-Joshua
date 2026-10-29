@@ -132,18 +132,15 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 | [`waypoint.py`](Code/waypoint.py) | Tkinter GUI for jogging the arm with inverse kinematics, teaching waypoints by hand (torque off), opening and closing the gripper, and saving and replaying waypoint sequences as JSON. Runs without hardware for previewing. |
 | [`vision_object_detection_test.py`](Code/vision_object_detection_test.py) | Streams color and depth from the RealSense D435i, runs YOLOv8n object detection, and prints each detected object's 3D position in meters. |
 
-**Lesson 5 forward kinematics scripts.** These need only NumPy (plus matplotlib for the reach plot) and assume link lengths of 250 mm. See the [Lesson 5 README](Curriculum/Lesson%205/) for the order to use them in.
+**Lesson 5 forward kinematics scripts.** These need only Python 3 (plus matplotlib for the optional reach plot) and assume link lengths of 250 mm. See the [Lesson 5 README](Curriculum/Lesson%205/) for the order to use them in.
 
 | File | What it does |
 |------|--------------|
-| [`fk_starter.py`](Code/fk_starter.py) | Student starter: fill in `dh_matrix` and `forward_kinematics`, then save as `fk.py` |
-| [`fk.py`](Code/fk.py) | Teacher solution: forward kinematics from the arm's DH table, returning the tip position (x, y, z) in mm |
-| [`check_fk.py`](Code/check_fk.py) | Pass/fail test of `forward_kinematics` against the hand-worked answers from Lessons 3 and 4 |
-| [`compare_methods.py`](Code/compare_methods.py) | Teacher solution: checks the DH code against Lesson 3's trigonometry on 2,000 random poses |
-| [`screw_helper.py`](Code/screw_helper.py) | Helper functions for screw theory (product of exponentials) |
-| [`fk_screw_starter.py`](Code/fk_screw_starter.py) | Student starter: forward kinematics with screw theory, saved as `fk_screw.py` |
-| [`fk_screw.py`](Code/fk_screw.py) | Teacher solution: forward kinematics with screw theory |
-| [`workspace_sweep.py`](Code/workspace_sweep.py) | Sweeps the shoulder and elbow angles and plots where the arm's tip can reach |
+| [`arm_starter.py`](Code/arm_starter.py) | Student starter: save as `arm.py` and add the forward kinematics functions one step at a time |
+| [`arm.py`](Code/arm.py) | Teacher solution: forward kinematics with vectors and the DH angles (`flat_tip` for the flat arm, `tip_3d` for the 3D arm), plus Lesson 3's method as `trig_tip` |
+| [`reach_sweep.py`](Code/reach_sweep.py) | Tries 100 shoulder and elbow angles and prints the farthest and nearest tip distances |
+| [`reach_plot.py`](Code/reach_plot.py) | Plots where the arm's tip can reach (needs matplotlib) |
+| [`ticks_demo.py`](Code/ticks_demo.py) | Changes Dynamixel motor ticks into joint angles |
 
 ## Educational Use
 

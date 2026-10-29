@@ -21,10 +21,10 @@ By the end of this lesson, students will be able to:
 
 | File | What it is |
 |------|------------|
-| [Lesson Plan 5_ Code Implementation of Forward Kinematics and Other Methods (1).pdf](Lesson%20Plan%205_%20Code%20Implementation%20of%20Forward%20Kinematics%20and%20Other%20Methods%20%281%29.pdf) | Lesson plan with timed procedures and assessment |
-| [Lesson Plan 5_ Code Implementation of Forward Kinematics and Other Methods (1).docx](Lesson%20Plan%205_%20Code%20Implementation%20of%20Forward%20Kinematics%20and%20Other%20Methods%20%281%29.docx) | Lesson plan (Word, editable) |
-| [Lesson_5_Code_Implementation_of_FK (1).pdf](Lesson_5_Code_Implementation_of_FK%20%281%29.pdf) | Slides (PDF) |
-| [Lesson_5_Code_Implementation_of_FK (2).pptx](Lesson_5_Code_Implementation_of_FK%20%282%29.pptx) | Slides (PowerPoint, editable) |
+| [Lesson Plan 5 - Code Implementation of Forward Kinematics and Other Methods.pdf](Lesson%20Plan%205%20-%20Code%20Implementation%20of%20Forward%20Kinematics%20and%20Other%20Methods.pdf) | Lesson plan with timed procedures and assessment |
+| [Lesson Plan 5 - Code Implementation of Forward Kinematics and Other Methods.docx](Lesson%20Plan%205%20-%20Code%20Implementation%20of%20Forward%20Kinematics%20and%20Other%20Methods.docx) | Lesson plan (Word, editable) |
+| [Lesson_5_Code_Implementation_of_FK.pdf](Lesson_5_Code_Implementation_of_FK.pdf) | Slides (PDF) |
+| [Lesson_5_Code_Implementation_of_FK.pptx](Lesson_5_Code_Implementation_of_FK.pptx) | Slides (PowerPoint, editable) |
 
 ## Code
 
@@ -36,7 +36,6 @@ The code for this lesson is in the [Code folder](../../Code/). It needs only Pyt
 | 1–2 | [`arm.py`](../../Code/arm.py) | Teacher | Solution: `arrow`, `scale`, `add_vectors`, `turn_90`, `turn`, `flat_tip`, `arrow_3d`, `turned_3d`, `tip_3d` and Lesson 3's `trig_tip`. Hold it back until students have tried the steps themselves |
 | 2 | [`reach_sweep.py`](../../Code/reach_sweep.py) | Students | Tries 100 poses and prints the farthest (500.0 mm) and nearest (353.55 mm) tip |
 | 2 | [`reach_plot.py`](../../Code/reach_plot.py) | Students (optional) | Draws the same poses as a picture of the reachable region |
-| 2 | [`ticks_demo.py`](../../Code/ticks_demo.py) | Optional | Changes motor ticks into joint angles (4096 ticks per turn, base geared 3 to 1) |
 
 Check your code with the worked example: `show(flat_tip(45, -45))` prints `[426.78, 176.78]` and `show(tip_3d(45, 45, -45))` prints `[301.78, 301.78, 176.78]`.
 

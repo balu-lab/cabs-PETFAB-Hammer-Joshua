@@ -140,7 +140,6 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 | [`arm.py`](Code/arm.py) | Teacher solution: forward kinematics with vectors and the DH angles (`flat_tip` for the flat arm, `tip_3d` for the 3D arm), plus Lesson 3's method as `trig_tip` |
 | [`reach_sweep.py`](Code/reach_sweep.py) | Tries 100 shoulder and elbow angles and prints the farthest and nearest tip distances |
 | [`reach_plot.py`](Code/reach_plot.py) | Plots where the arm's tip can reach (needs matplotlib) |
-| [`ticks_demo.py`](Code/ticks_demo.py) | Changes Dynamixel motor ticks into joint angles |
 
 ## Educational Use
 

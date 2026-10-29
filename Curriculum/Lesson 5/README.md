@@ -18,10 +18,10 @@ By the end of this lesson, students will be able to:
 
 | File | What it is |
 |------|------------|
-| [Lesson Plan 5 - Code Implementation of Forward Kinematics and Other Methods.pdf](Lesson%20Plan%205%20-%20Code%20Implementation%20of%20Forward%20Kinematics%20and%20Other%20Methods.pdf) | Lesson plan with timed procedures and assessment |
-| [Lesson Plan 5 - Code Implementation of Forward Kinematics and Other Methods.docx](Lesson%20Plan%205%20-%20Code%20Implementation%20of%20Forward%20Kinematics%20and%20Other%20Methods.docx) | Lesson plan (Word, editable) |
-| [Lesson_5_Code_Implementation_of_FK.pdf](Lesson_5_Code_Implementation_of_FK.pdf) | Slides (PDF) |
-| [Lesson_5_Code_Implementation_of_FK.pptx](Lesson_5_Code_Implementation_of_FK.pptx) | Slides (PowerPoint, editable) |
+| [Lesson Plan 5_ Code Implementation of Forward Kinematics and Other Methods (1).pdf](Lesson%20Plan%205_%20Code%20Implementation%20of%20Forward%20Kinematics%20and%20Other%20Methods%20%281%29.pdf) | Lesson plan with timed procedures and assessment |
+| [Lesson Plan 5_ Code Implementation of Forward Kinematics and Other Methods (1).docx](Lesson%20Plan%205_%20Code%20Implementation%20of%20Forward%20Kinematics%20and%20Other%20Methods%20%281%29.docx) | Lesson plan (Word, editable) |
+| [Lesson_5_Code_Implementation_of_FK (1).pdf](Lesson_5_Code_Implementation_of_FK%20%281%29.pdf) | Slides (PDF) |
+| [Lesson_5_Code_Implementation_of_FK (2).pptx](Lesson_5_Code_Implementation_of_FK%20%282%29.pptx) | Slides (PowerPoint, editable) |
 
 ## Code
 

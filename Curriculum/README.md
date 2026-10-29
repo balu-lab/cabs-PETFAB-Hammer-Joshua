@@ -17,7 +17,7 @@ The full course description, learning goals, standards alignment and materials l
 | 1 | [Introduction to the Robotic Arm](Lesson%201/) | Vocabulary, parts, safety, industry context | Included |
 | 2 | [Building the Robotic Arm](Lesson%202/) | Physical assembly, wiring, functional testing | Included |
 | 3 | [Trigonometric Approach to FK](Lesson%203/) | Derive forward kinematics with trigonometry in 2D and 3D | Included |
-| 4 | [Denavit-Hartenberg Approach to FK](Lesson%204/) | Forward kinematics with DH parameters and matrices | Included |
+| 4 | [Denavit-Hartenberg Approach to FK](Lesson%204/) | Forward kinematics with vectors and the DH angle convention, in 2D and 3D, checked in Desmos | Included |
 | 5 | [Code Implementation of FK](Lesson%205/) | Code forward kinematics one function at a time, compare it with Lesson 3's method, map the arm's reach | Included |
 | 6 | Trigonometric Approach to IK | Derive inverse kinematics with the law of cosines and trigonometry | Included |
 | 7 | Gradient Descent Approach to IK | Iterative, numerical inverse kinematics | Included |

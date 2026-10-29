@@ -1,6 +1,6 @@
 # Lesson 4: The DH Approach to Forward Kinematics
 
-Students find where the tip of the arm is with vectors, using the DH (Denavit-Hartenberg) convention that engineers use for robot arms: each joint angle is measured from the link before it, and up (counterclockwise) is positive. On Day 1 they use the flat arm from Lesson 3. They write the upper arm as an arrow (cos θS, sin θS), turn that arrow 90° to get a second arrow at a right angle, and use the two arrows to find the direction of the forearm from the elbow angle. Adding the link vectors gives the tip. On Day 2 the base turn gives each arrow a third number, and students check their answers in the Desmos graph. No matrices are used.
+Students find where the tip of the arm is with vectors, using the DH (Denavit-Hartenberg) convention that engineers use for robot arms: each joint angle is measured from the link before it, and up (counterclockwise) is positive. On Day 1 they use the flat arm from Lesson 3. They write the upper arm as an arrow (cos θS, sin θS), turn that arrow 90° to get a second arrow at a right angle, and use the two arrows to find the direction of the forearm from the elbow angle. Adding the link vectors gives the tip. On Day 2 the base turn gives each arrow a third number, and students check their answers in the Desmos graph.
 
 **Time:** two class periods (about 60 minutes each)
 

@@ -27,6 +27,6 @@ By the end of this lesson, students will be able to:
 Explore the arm's forward kinematics using the trigonometric approach in Desmos:
 [Open the Desmos graph](https://www.desmos.com/3d/9bnvqc263x)
 
-[![The arm's forward kinematics in the Desmos 3D graph, with the base rotation circle](desmos-fk-model.png)](https://www.desmos.com/3d/9bnvqc263x)
+[![The Lesson 3 Desmos 3D graph of the arm: the upper arm in purple and the forearm in gray](desmos-fk-model.png)](https://www.desmos.com/3d/9bnvqc263x)
 
 **Previous:** [Lesson 2](../Lesson%202/) · **Next:** [Lesson 4: Denavit-Hartenberg Approach to FK](../Lesson%204/)

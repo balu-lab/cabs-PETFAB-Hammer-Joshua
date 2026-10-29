@@ -27,7 +27,7 @@ The `dh_helper.py` code used on the "Check It with Code" slide is in the lesson 
 
 ## Check your DH result
 
-Done correctly, the DH method gives the same end-effector position as the trigonometric method from Lesson 3. Use the Lesson 3 Desmos model to check your answers:
-[Open the Desmos graph](https://www.desmos.com/3d/9bnvqc263x)
+Done correctly, the DH method gives the same end-effector position as the trigonometric method from Lesson 3. Use the Lesson 4 Desmos graph (DH convention) to check your answers. Set u = θB, v = θS and w = θE. The graph measures in hundreds of mm, so multiply d by 100: the worked example (45°, 45°, −45°) gives d = (3.0178, 3.0178, 1.7678), which is (301.78, 301.78, 176.78) mm.
+[Open the Desmos graph](https://www.desmos.com/3d/qq1w1zrs78)
 
 **Previous:** [Lesson 3](../Lesson%203/) · **Next:** [Lesson 5: Code Implementation of FK](../Lesson%205/)

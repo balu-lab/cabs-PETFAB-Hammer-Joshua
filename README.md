@@ -19,7 +19,7 @@ Most educational arms are either toys that hide the engineering or industrial ma
 1. **Build it.** Assemble the arm, wire the actuators, and run first power-on tests.
 2. **Understand where it is.** Derive and code *forward kinematics* to calculate where the gripper is from the joint angles.
 3. **Tell it where to go.** Derive and code *inverse kinematics* to work out the joint angles needed to reach a target.
-4. **Let it see.** Use stereo depth sensing and AI object detection to perceive the objects around it.
+4. **Let it see.** Use AI object detection and stereo depth sensing to find the objects around it and how far away they are.
 
 ### Who it's for
 
@@ -33,7 +33,7 @@ Most educational arms are either toys that hide the engineering or industrial ma
 - ⚙️ Robotis Dynamixel XM540-W270-T smart actuators with built-in encoders
 - 👁️ Intel RealSense D435i depth camera with YOLOv8 object detection
 - 🖥️ Point-and-click GUI to teach, save, and replay waypoint sequences
-- 📚 10-lesson curriculum with lesson plans, slides, worked problems, and assessments (Lessons 1–7 available now)
+- 📚 10-lesson curriculum with lesson plans, slides, worked problems, and assessments (Lessons 1–7, 9 and 10 available now)
 - 🔓 Open assembly instructions, bill of materials, curriculum, and code, with design files on the way
 
 ## See It in Action
@@ -79,8 +79,8 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 |--------|---------------|
 | [Assembly Instructions](Assembly%20Instructions/) | Step-by-step build guide for the base, shoulder, elbow, gripper, and full arm (PowerPoint + PDF) |
 | [BOM](BOM/) | Bill of materials with quantities, materials, and purchase links (Excel + PDF) |
-| [Curriculum](Curriculum/) | Course overview plus lesson plans and slides for Lessons 1–7 |
-| [Code](Code/) | Waypoint teach/replay GUI, camera and object-detection test, and the Lesson 5 forward kinematics scripts |
+| [Curriculum](Curriculum/) | Course overview plus lesson plans and slides for Lessons 1–7, 9 and 10 |
+| [Code](Code/) | Waypoint teach/replay GUI, camera and object-detection test, the Lesson 5 forward kinematics scripts, and the Lesson 9 and 10 vision scripts |
 | [3D Printing Files](3D%20Printing%20Files/) | Printable links, plates, and gripper parts *(coming soon)* |
 | [CAD](CAD/) | Design source files *(coming soon)* |
 | [User Manuals](User%20Manuals/) | Actuator and camera datasheets *(coming soon)* |
@@ -141,9 +141,20 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 | [`reach_sweep.py`](Code/reach_sweep.py) | Tries 100 shoulder and elbow angles and prints the farthest and nearest tip distances |
 | [`reach_plot.py`](Code/reach_plot.py) | Plots where the arm's tip can reach (needs matplotlib) |
 
+**Lesson 9 and 10 vision scripts.** These need numpy and opencv-python, and the Lesson 9 detector also needs ultralytics. See the [Lesson 9](Curriculum/Lesson%209/) and [Lesson 10](Curriculum/Lesson%2010/) READMEs for how to use them.
+
+| File | What it does |
+|------|--------------|
+| [`detect_helper.py`](Code/detect_helper.py) | Lesson 9 helpers: box math, IoU, confidence threshold, NMS, precision and recall, the turn angle, and running YOLOv8 on an image |
+| [`detect_pipeline.py`](Code/detect_pipeline.py) | Lesson 9: detect, clean up the boxes, pick the best cup and print the base turn |
+| [`stereo_helper.py`](Code/stereo_helper.py) | Lesson 10 helpers: depth from disparity, pixel to camera frame to base frame, calibration, rectification and disparity maps |
+| [`stereo_depth_check.py`](Code/stereo_depth_check.py) | Lesson 10, Day 1: depth from the columns read in the left and right images |
+| [`stereo_calibrate.py`](Code/stereo_calibrate.py) | Lesson 10, Day 2: calibrate a stereo pair from checkerboard photos |
+| [`stereo_target.py`](Code/stereo_target.py) | Lesson 10, Day 2: find a target's depth and its position in the arm's base frame |
+
 ## Educational Use
 
-The curriculum takes students from building the arm through forward kinematics, inverse kinematics, and stereo vision with AI object detection. It is aligned with NGSS engineering design standards (HS-ETS1-1 to HS-ETS1-4). See the [Curriculum folder](Curriculum/) for the course overview.
+The curriculum takes students from building the arm through forward kinematics, inverse kinematics, AI object detection and stereo vision. It is aligned with NGSS engineering design standards (HS-ETS1-1 to HS-ETS1-4). See the [Curriculum folder](Curriculum/) for the course overview.
 
 | # | Lesson | Status |
 |---|--------|--------|
@@ -155,8 +166,8 @@ The curriculum takes students from building the arm through forward kinematics, 
 | 6 | [Trigonometric Approach to IK](Curriculum/Lesson%206/) | Included |
 | 7 | [Gradient Descent Approach to IK](Curriculum/Lesson%207/) | Included |
 | 8 | Code Implementation of IK | Planned |
-| 9 | Stereoscopic Camera | Planned |
-| 10 | AI Object Detection | Planned |
+| 9 | [AI Object Detection](Curriculum/Lesson%209/) | Included |
+| 10 | [Stereoscopic Camera](Curriculum/Lesson%2010/) | Included |
 
 Prerequisites: high school Math 3 / Geometry and intermediate Python.
 

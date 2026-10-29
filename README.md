@@ -37,7 +37,7 @@ Most educational arms are either toys that hide the engineering or industrial ma
 - ⚙️ Robotis Dynamixel XM540-W270-T smart actuators with built-in encoders
 - 👁️ Intel RealSense D435i depth camera with YOLOv8 object detection
 - 🖥️ Point-and-click GUI to teach, save, and replay waypoint sequences
-- 📚 10-lesson curriculum with lesson plans, slides, worked problems, and assessments (Lessons 1–7, 9 and 10 available now)
+- 📚 10-lesson curriculum with lesson plans, slides, worked problems, and assessments (all 10 lessons available now)
 - 🔓 Open assembly instructions, bill of materials, curriculum, and code, with design files on the way
 
 ## See It in Action
@@ -83,10 +83,9 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 |--------|---------------|
 | [Assembly Instructions](Assembly%20Instructions/) | Step-by-step build guide for the base, shoulder, elbow, gripper, and full arm (PowerPoint + PDF) |
 | [BOM](BOM/) | Bill of materials with quantities, materials, and purchase links (Excel + PDF) |
-| [Curriculum](Curriculum/) | Course overview plus lesson plans and slides for Lessons 1–7, 9 and 10 |
-| [Code](Code/) | Waypoint teach/replay GUI, camera and object-detection test, the Lesson 5 forward kinematics scripts, and the Lesson 9 and 10 vision scripts |
-| [3D Printing Files](3D%20Printing%20Files/) | Printable links, plates, and gripper parts *(coming soon)* |
-| [CAD](CAD/) | Design source files *(coming soon)* |
+| [Curriculum](Curriculum/) | Course overview plus lesson plans and slides for all 10 lessons |
+| [Code](Code/) | Waypoint teach/replay GUI, camera and object-detection test, the Lesson 5 forward kinematics and Lesson 8 inverse kinematics scripts, and the Lesson 9 and 10 vision scripts |
+| [CAD](CAD/) | The full arm assembly as a STEP file (`Main ASM.step`) |
 | [User Manuals](User%20Manuals/) | Actuator and camera datasheets *(coming soon)* |
 | [Photos](Photos/) | Photos of the built arm and prototypes, CAD renders, and camera screenshots |
 | [Videos](Videos/) | Demo, range-of-motion, and prototype videos |
@@ -104,7 +103,7 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 ## Getting Started
 
 1. Buy the parts listed in the [Bill of Materials](BOM/Arm%20BOM.xlsx).
-2. Print the 3D-printed parts and machine the aluminum plates *(files coming soon in [3D Printing Files](3D%20Printing%20Files/) and [CAD](CAD/))*.
+2. Print the 3D-printed parts and machine the aluminum plates. The full arm assembly is in the [CAD folder](CAD/) as a STEP file.
 3. Build the arm following the [assembly instructions](Assembly%20Instructions/All%20Assembly%20Instructions.pdf).
 4. Set up the actuators. In ROBOTIS Dynamixel Wizard 2.0, set every actuator to Protocol 2.0 at 1 Mbps and give each one the ID the code expects:
 
@@ -145,6 +144,15 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 | [`reach_sweep.py`](Code/reach_sweep.py) | Tries 100 shoulder and elbow angles and prints the farthest and nearest tip distances |
 | [`reach_plot.py`](Code/reach_plot.py) | Plots where the arm's tip can reach (needs matplotlib) |
 
+**Lesson 8 inverse kinematics scripts.** These need only Python 3 and import `arm.py` from Lesson 5, so keep them in the same folder. See the [Lesson 8 README](Curriculum/Lesson%208/) for the order to use them in.
+
+| File | What it does |
+|------|--------------|
+| [`ik_starter.py`](Code/ik_starter.py) | Student starter: save as `ik.py` and add the inverse kinematics functions one step at a time |
+| [`ik.py`](Code/ik.py) | Teacher solution: Lesson 6's trigonometry (`ik_flat` for the flat arm, `ik_3d` for the 3D arm) and Lesson 7's gradient descent (`ik_gd`) |
+| [`check_ik.py`](Code/check_ik.py) | Runs both methods on four targets and prints the angles, steps and error for each |
+| [`jacobian_preview.py`](Code/jacobian_preview.py) | Prints the Jacobian and compares a Jacobian method (5 steps) with gradient descent (84 steps) |
+
 **Lesson 9 and 10 vision scripts.** These need numpy and opencv-python, and the Lesson 9 detector also needs ultralytics. See the [Lesson 9](Curriculum/Lesson%209/) and [Lesson 10](Curriculum/Lesson%2010/) READMEs for how to use them.
 
 | File | What it does |
@@ -169,7 +177,7 @@ The curriculum takes students from building the arm through forward kinematics, 
 | 5 | [Code Implementation of FK](Curriculum/Lesson%205/) | Included |
 | 6 | [Trigonometric Approach to IK](Curriculum/Lesson%206/) | Included |
 | 7 | [Gradient Descent Approach to IK](Curriculum/Lesson%207/) | Included |
-| 8 | Code Implementation of IK | Planned |
+| 8 | [Code Implementation of IK](Curriculum/Lesson%208/) | Included |
 | 9 | [AI Object Detection](Curriculum/Lesson%209/) | Included |
 | 10 | [Stereoscopic Camera](Curriculum/Lesson%2010/) | Included |
 

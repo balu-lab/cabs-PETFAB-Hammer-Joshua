@@ -9,5 +9,5 @@ Everything needed to build one PETFAB Armadillo.
 
 Each row gives the quantity, the part name, where to get it, and any notes.
 
-- **Custom parts** are marked "Custom" in the Source column. Most are 3D printed in PETG, the shoulder and elbow pieces are printed in PLA, and the base plates are machined from 6061 aluminum on a CNC mill. Print and CAD files will be added to [3D Printing Files](../3D%20Printing%20Files/) and [CAD](../CAD/).
+- **Custom parts** are marked "Custom" in the Source column. Most are 3D printed in PETG, the shoulder and elbow pieces are printed in PLA, and the base plates are machined from 6061 aluminum on a CNC mill. The full arm assembly is in the [CAD folder](../CAD/) as a STEP file.
 - **Purchased parts**, such as the actuators, camera, bearings, springs, fasteners and wiring, include a purchase link in the Source column. Several fasteners come from one bolt assortment, as noted in the Notes column.

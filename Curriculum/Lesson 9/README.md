@@ -47,4 +47,4 @@ The code for this lesson is in the [Code folder](../../Code/). Install the packa
 
 Put an arm-camera photo named `table.png` in the same folder before running the script. When the best cup box is (400, 150, 500, 350), it prints a center of (450.0, 250.0), an offset of 130.0 10.0 and a base turn of −13.2 degrees. The box math was tested; run `run_detector` once on a lab computer before class.
 
-**Previous:** [Lesson 7](../Lesson%207/) (Lesson 8 is planned) · **Next:** [Lesson 10: Stereoscopic Camera](../Lesson%2010/)
+**Previous:** [Lesson 8: Code Implementation of IK](../Lesson%208/) · **Next:** [Lesson 10: Stereoscopic Camera](../Lesson%2010/)

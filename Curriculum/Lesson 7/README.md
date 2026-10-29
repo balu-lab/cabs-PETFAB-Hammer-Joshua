@@ -31,6 +31,6 @@ By the end of this lesson, students will be able to:
 3. Step: θ_new = θ − η × slope, for every joint at once (in radians)
 4. Repeat until the error is under the tolerance (0.5 mm) or the step limit (1000 steps) is reached, then check the final error
 
-All angles use the DH convention from Lessons 4–6, with L1 = L2 = 250 mm. There is no code in this lesson: the Day 2 slides show the results of a computer run (start (0°, 45°, −45°), η = 0.1). Students write the IK code themselves in Lesson 8.
+All angles use the DH convention from Lessons 4–6, with L1 = L2 = 250 mm. There is no code in this lesson: the Day 2 slides show the results of a computer run (start (0°, 45°, −45°), η = 0.1). Students write the IK code themselves in [Lesson 8](../Lesson%208/).
 
-**Previous:** [Lesson 6](../Lesson%206/)
+**Previous:** [Lesson 6](../Lesson%206/) · **Next:** [Lesson 8: Code Implementation of IK](../Lesson%208/)

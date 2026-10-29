@@ -1,6 +1,6 @@
 # Curriculum
 
-A 10-lesson course that takes high school students from building the PETFAB Armadillo to programming how it moves and how it sees. Lessons 1–7, 9 and 10 are ready to teach. Lesson 8 is planned.
+A 10-lesson course that takes high school students from building the PETFAB Armadillo to programming how it moves and how it sees. All 10 lessons are ready to teach.
 
 The course is built around three questions, introduced in Lesson 1 and revisited throughout:
 
@@ -21,7 +21,7 @@ The full course description, learning goals, standards alignment and materials l
 | 5 | [Code Implementation of FK](Lesson%205/) | Code forward kinematics one function at a time, compare it with Lesson 3's method, map the arm's reach | Included |
 | 6 | [Trigonometric Approach to IK](Lesson%206/) | Derive inverse kinematics with the law of cosines and trigonometry | Included |
 | 7 | [Gradient Descent Approach to IK](Lesson%207/) | Iterative, numerical inverse kinematics | Included |
-| 8 | Code Implementation of IK | Code inverse kinematics, preview Jacobians | Planned |
+| 8 | [Code Implementation of IK](Lesson%208/) | Code Lesson 6's trigonometry and Lesson 7's gradient descent one function at a time, check every answer with FK, preview the Jacobian | Included |
 | 9 | [AI Object Detection](Lesson%209/) | Find objects with a pretrained detector, clean up the boxes and turn the base toward a target | Included |
 | 10 | [Stereoscopic Camera](Lesson%2010/) | Depth from disparity, camera calibration and 3D target points for the arm | Included |
 

@@ -140,7 +140,7 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 | File | What it does |
 |------|--------------|
 | [`arm_starter.py`](Code/arm_starter.py) | Student starter: save as `arm.py` and add the forward kinematics functions one step at a time |
-| [`arm.py`](Code/arm.py) | Teacher solution: forward kinematics with vectors and the DH angles (`flat_tip` for the flat arm, `tip_3d` for the 3D arm), plus Lesson 3's method as `trig_tip` |
+| [`arm.py`](Code/arm.py) | Solution: forward kinematics with vectors and the DH angles (`flat_tip` for the flat arm, `tip_3d` for the 3D arm), plus Lesson 3's method as `trig_tip` |
 | [`reach_sweep.py`](Code/reach_sweep.py) | Tries 100 shoulder and elbow angles and prints the farthest and nearest tip distances |
 | [`reach_plot.py`](Code/reach_plot.py) | Plots where the arm's tip can reach (needs matplotlib) |
 
@@ -149,7 +149,7 @@ More pictures, including CAD renders and an exploded view, are in [Photos](Photo
 | File | What it does |
 |------|--------------|
 | [`ik_starter.py`](Code/ik_starter.py) | Student starter: save as `ik.py` and add the inverse kinematics functions one step at a time |
-| [`ik.py`](Code/ik.py) | Teacher solution: Lesson 6's trigonometry (`ik_flat` for the flat arm, `ik_3d` for the 3D arm) and Lesson 7's gradient descent (`ik_gd`) |
+| [`ik.py`](Code/ik.py) | Solution: Lesson 6's trigonometry (`ik_flat` for the flat arm, `ik_3d` for the 3D arm) and Lesson 7's gradient descent (`ik_gd`) |
 | [`check_ik.py`](Code/check_ik.py) | Runs both methods on four targets and prints the angles, steps and error for each |
 | [`jacobian_preview.py`](Code/jacobian_preview.py) | Prints the Jacobian and compares a Jacobian method (5 steps) with gradient descent (84 steps) |
 

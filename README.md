@@ -7,7 +7,7 @@
 **An open, buildable robotic arm and full curriculum that takes students from turning a screwdriver to writing code that tells a robot where it is, where to go, and what it sees.**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0e318e36-ad0c-4c52-9297-0e793f83be41" alt="The PETFAB Armadillo robotic arm in CAD" width="1400">
+  <img src="Photos/Robotic_Arm.png" alt="The PETFAB Armadillo robotic arm in CAD" width="1400">
 </p>
 
 ---
